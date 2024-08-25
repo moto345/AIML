@@ -13,7 +13,6 @@ queue = []
 def bfs(visited,graph,node):
   visited.append(node)
   queue.append(node)
-
   while queue:
       m=queue.pop(0)
       print(m,end = " ")
@@ -23,7 +22,6 @@ def bfs(visited,graph,node):
              queue.append(neighbour)
 print("following is the Breadth-First-Search")
 bfs(visited,graph,'A')
-
 visited =set()
 def DFS(node,visited,graph):
     if node not in visited:
@@ -34,17 +32,9 @@ def DFS(node,visited,graph):
 print("\nfollowing is the Depth-First-Search")
 DFS("A",visited,graph)
 
-
-
-
+OUTPUT :-
+-------------------
 following is the Breadth-First-Search
 A B C D E F G H 
 following is the Depth-First-Search
-A
-B
-E
-F
-C
-G
-H
-D
+A B E F C G H D
