@@ -6,8 +6,6 @@ def travellingsalesmanproblem(graph,s):
     for i in range(v):
         if i != s:
             vertex.append(i)
-
-
     min_path = maxsize
     next_permutation=permutations(vertex)
     for i in next_permutation:
@@ -24,6 +22,7 @@ if __name__=="__main__":
             [15, 35, 0, 30], [20, 25, 30, 0]]
     s=0
     print(travellingsalesmanproblem(graph, s))
+
 
 OUTPUT:-
 ---------------------------
