@@ -21,3 +21,7 @@ def main():
         colors_of_states[state]=get_color_for_state(state)
     print(colors_of_states)
 main()
+
+OUTPUT:-
+---------------------------
+{'andhra': 'red', 'karnataka': 'blue', 'tamilnadu': 'green', 'kerala': 'red'}
